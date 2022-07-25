@@ -17,14 +17,18 @@
 
 <script>
 
+try {
 (async function() {
-  const pagerankDataUrl = 'https://oglehb.github.io/ucpagerank/pagerank.json';
+  const dataUrl = 'https://oglehb.github.io/ucpagerank/pagerank.json';
+  console.log('Using data URL: ' + dataUrl);
   console.log('Fetching data...');
-  const response = await fetch(pagerankDataUrl);
+  const response = await fetch(dataUrl);
   console.log('Done.');
   const data = response.json();
   window.data = data;
-});
+  document.body.style.backgroundColor = 'green';
+})();
+} catch (e) { console.log(e); }
 
 </script>
 
