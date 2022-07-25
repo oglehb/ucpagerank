@@ -2,9 +2,9 @@
 
 Within this repo is a Python script which indexes every [www.uc.edu]() webpage reachable from the homepage as well as a C++ program which builds the hyperlink graph and computes the PageRank vector. Both the script and the program ultimately write their data to files, **which have been uploaded to this repo in advance**, so fulfilling this process yourself is entirely unnecessary to enjoy the PageRank visualization—just open the HTML file, which itself uses the aforementioned uploaded data files.
 
-# (Optional) Building the Hyperlink Matrix and Computing PageRank Yourself
+# (Optional) Building the hyperlink matrix and running PageRank yourself
 
-If you are so inclined to crawl every UC-domain webpage reachable for the homepage, and then compute the PageRank vector, you may follow the below instructions.
+If you are so inclined to crawl every UC-domain webpage reachable from the homepage, and then compute the PageRank vector, you may follow the below instructions.
 
 ## Running the Crawler
 

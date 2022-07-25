@@ -8,7 +8,7 @@ import json
 VERTEXSET_FILENAME = 'vertices.txt'
 EDGESET_FILENAME = 'edges.csv'
 PAGERANK_FILENAME = 'pagerank.txt'
-JSON_OUTPUT_FILENAME = 'pagerank.json'
+JSON_OUTPUT_FILENAME = './dist/pagerank.json'
 
 def main():
 
